@@ -1,0 +1,399 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+
+    android:orientation="vertical">
+
+    <com.example.sdm.cybk.ui.widget.Back
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="一、新媒体平台"
+                android:textColor="#00aae7"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="1.微信平台"
+                android:textColor="#212121"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/xbs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#3f3f3f"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/xbs"
+                        android:layout_marginTop="16dp"
+                        android:text="微信平台："
+                        android:textColor="#3f3f3f"
+                        android:textSize="16dp" />
+
+                </RelativeLayout>
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@mipmap/xbs" />
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="二、黄桷网事"
+
+                android:textColor="#00aae7"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/net_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="1.学校主页"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="学校的门户网站http://www.cqupt.edu.cn/"
+                android:textColor="#9a9a9a"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="2.红岩网校"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="我校校园网上最大的门户型网站,各种资讯、资料应有
+尽有。http://202.202.43.125/"
+                android:textColor="#9a9a9a"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="3.团建在线"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="校团委的门户网站,在这里你可以浏览各个学院共青团
+工作的最新信息。http://202.202.43.125/gqt/"
+                android:textColor="#9a9a9a"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="4.学生处"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="学生处的网站,对于学生来说,在这里可以下载到助学
+金、国家奖学金、助学贷款的相关表格,可以看到学校
+对于这些奖助贷的最新政策。
+http://xsc.cqupt.edu.cn/xsc/"
+                android:textColor="#9a9a9a"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="5.招生就业信息网"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="这是我校每年大四毕业的学生最关注的网站,这里有
+我校每年要来的招聘单位的相关信息,即使不是毕业
+班,看一看，可以给自己找找动力。
+http://job.cqupt.edu.cn/"
+                android:textColor="#9a9a9a"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="6.教务在线"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="这个网站也是学生必上的网站,看课表、查成绩、看老
+师安排,了解学校最新的教务信息,一定要去这里,这里
+最官方最权威。http://jwzx.cqupt.edu.cn"
+                android:textColor="#9a9a9a"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="7.网址大全"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/wzdq" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="囊括了校园网中所有网站的网址信息,它就是你在校园
+网中畅游的地图。http://202.202.43.125/web"
+                android:textColor="#9a9a9a"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="8.重邮Online"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="我校最受欢迎、人气指数最高的校园网络互动社区,重
+邮人自己的“校内网”。
+http://202.202.43.125/online/portal.php"
+                android:textColor="#9a9a9a"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="9.BT Down铺"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="学生处的网站,对于学生来说,在这里可以下载到助学
+金、国家奖学金、助学贷款的相关表格,可以看到学校
+对于这些奖助贷的最新政策。
+http://xsc.cqupt.edu.cn/xsc/"
+                android:textColor="#9a9a9a"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="9.BT Down铺"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="我校最受欢迎、人气指数最高的校园网络互动社区,重
+邮人自己的“校内网”。
+http://202.202.43.125/online/portal.php"
+                android:textColor="#9a9a9a"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="10.软件中心"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="我校最大的软件下载站点，所有的软件均是有学生自
+己上传，这里肯定有你需要的软件。
+http://202.202.43.124(内网)"
+                android:textColor="#9a9a9a"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="11.红岩微博"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="获得最新最热的资讯,网页、手机随时随地分享生活
+点滴。http://202.202.43.125/t/"
+                android:textColor="#9a9a9a"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="12.锦瑟南山"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="我校最大、最全的文化创意网站。
+http://202.202.43.125/jsnswx/"
+                android:textColor="#9a9a9a"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="13.学识中心"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="学习上有困难的同学可以网站求助,获得志愿者点对
+点的帮助,当然还可以下载学习资料、教师教案等。
+http://hongyan.cqupt.edu.cn/xszx/"
+                android:textColor="#9a9a9a"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="14.学生邮件系统"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="校内邮箱登陆地址,学校会给每个人分配一个邮箱,登
+陆地址就在这里。http://stu.cqupt.edu.cn"
+                android:textColor="#9a9a9a"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="15.网上图书馆"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="你可以在这个网站查看自己借阅的图书信息、可以
+网上续借,当然除了这个,从这里你还可以进入论文数
+据库、超星图书馆、万方数据库、维普数据库等等
+无情无尽的网络文献资源。
+http://www.cqupt.edu.cn/tsg/"
+                android:textColor="#9a9a9a"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

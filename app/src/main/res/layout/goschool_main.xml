@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+
+    android:orientation="vertical">
+
+    <com.example.sdm.cybk.ui.widget.Back
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/view_3" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:layout_width="90dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/safe" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="一、防止上当受骗。一些不法分子利用新生刚入学不
+熟悉情况，以老师、学长或老乡的身份，骗取新生信
+任，然后以代缴学费、减免学费、取款、购买廉价物
+品等方式进行诈骗。因此不要让陌生人代缴学费或代
+取款。"
+                    android:textColor="#9a9a9a"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="二、不携过多现金。数额较大的现金应及时存入附近
+银行，存折、银行卡、身份证尽量分开存放；使用银
+行卡要谨慎，以防密码泄露或被骗。。"
+                    android:textColor="#9a9a9a"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="三、拒绝上门推销。许多不法分子以到寝室推销为名
+实施诈骗或盗窃，如若发现上门推销人员，应及时报
+告宿管人员或保卫处。"
+                    android:textColor="#9a9a9a"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="四、室内注意防盗。要保管好自己的笔记本电脑、手
+机等贵重物品，不要将其随意放在寝室的床上、桌上，
+以免被人“顺手牵羊”"
+                    android:textColor="#9a9a9a"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="五、注意消防安全。爱护消防设施，寝室内不违章
+使用大功率电器。学校对学生宿舍消防安全有严格
+规定，请您自觉遵守。"
+                    android:textColor="#9a9a9a"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="六、注意交通安全。不乘坐“黑车”和存在安全隐
+患的车辆，以防止发生人身伤害事故。"
+                    android:textColor="#9a9a9a"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="七、及时与公安机关联系。任何时候，当您的人
+身和财产遭到不法侵害时，请及时报告当地公安机
+关（110）或学校保卫处（电话：62461018，6246
+0110）。"
+                    android:textColor="#9a9a9a"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CYBK</string>
+    <string name="baike">重邮百科</string>
+
+    <string name="group">校级组织</string>
+    <string name="newStudent">新生攻略</string>
+
+    <string name="department">团委直属部门</string>
+    <string name="student">校学生会</string>
+    <string name="club">社团联合会</string>
+    <string name="Science">科技联合会</string>
+    <string name="volunteer">青年志愿者协会</string>
+    <string name="collge">大学生艺术团</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

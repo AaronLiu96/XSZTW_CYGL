@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_blue">#00aae8</color>
+    <color name="title_white">#ffffff</color>
+
+    <!--校车路线字体颜色-->
+    <color name="text_gray">#9a9a9a</color>
+    <color name="text_blue">#03a9f3</color>
+    <color name="ridingway_org">#ff9c0a</color>
+    <color name="net_orange">#f7a420</color>
+    <color name="life_gray">#999999</color>
+    <color name="life_yellow">#c5d42e</color>
+    <color name="life_red">#ff5722</color>
+
+</resources>
